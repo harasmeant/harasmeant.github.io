@@ -1,4 +1,19 @@
 /* An editorial portfolio connecting physical products, digital work and education. */
+.systems{border-top:1px solid var(--line);margin-top:80px;padding-top:65px}
+.systems-content{display:grid;grid-template-columns:.9fr 1.1fr;gap:65px;align-items:start}
+.systems-intro{padding:32px;background:#e6eadf;border:1px solid #d3dac9;border-radius:4px}
+.systems-intro h3{font:500 29px/1.2 'Space Grotesk',sans-serif;letter-spacing:-1px;margin:20px 0}
+.systems-intro p{font-size:14px;color:var(--muted);line-height:1.8;margin:0}
+.systems-intro .skills span{background:transparent;border-color:#bdc8b2;font-size:11px}
+.system-practice{display:flex;gap:20px;border-top:1px solid var(--line);padding:24px 0}
+.system-practice:last-child{border-bottom:1px solid var(--line)}
+.system-number{font:10px monospace;color:var(--muted);padding-top:5px}
+.system-practice h3{font:500 18px/1.4 'Space Grotesk',sans-serif;margin:0 0 10px;letter-spacing:-.3px}
+.system-practice p{font-size:13px;line-height:1.8;color:var(--muted);margin:0}
+.systems-link{display:inline-block;margin-top:20px;padding-bottom:7px;border-bottom:1px solid var(--line);font-size:12px;line-height:1.6}
+@media(max-width:1000px){.systems-content{gap:35px}.systems-intro{padding:26px}.systems-intro h3{font-size:26px}}
+@media(max-width:760px){.systems{margin-top:55px;padding-top:48px}.systems-content{grid-template-columns:1fr;gap:25px}.systems-intro{padding:25px}.systems-intro h3{font-size:28px}.systems-intro p{font-size:13px}.system-practice{gap:14px;padding:20px 0}}
+@media print{.systems{margin-top:20px;padding-top:25px}.systems-content{grid-template-columns:1fr 1fr;gap:20px}.systems-intro{background:white;padding:15px;break-inside:avoid}.systems-intro h3{font-size:18pt}.systems-intro p,.system-practice p{font-size:9pt}.system-practice{padding:12px 0;gap:10px;break-inside:avoid}.system-practice h3{font-size:12pt}.systems-link{display:none}}
 .project .related-experience{margin-top:12px;font-size:12px}
 .course-product{margin-top:22px;padding-top:20px;border-top:1px solid #bcc8b0}
 .course-product h5{font:500 17px/1.4 'Space Grotesk',sans-serif;margin:0 0 10px;letter-spacing:-.3px}
