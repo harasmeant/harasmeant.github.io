@@ -1,4 +1,16 @@
 /* An editorial portfolio connecting physical products, digital work and education. */
+.project .related-experience{margin-top:12px;font-size:12px}
+.course-product{margin-top:22px;padding-top:20px;border-top:1px solid #bcc8b0}
+.course-product h5{font:500 17px/1.4 'Space Grotesk',sans-serif;margin:0 0 10px;letter-spacing:-.3px}
+.course-card .course-product p{font-size:13px}
+.project-vacuum{grid-column:1 / -1;display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center;margin-top:10px;padding-top:32px;border-top:1px solid var(--line)}
+.project-vacuum .p5{background:#e0e6d7;height:350px}
+.project-vacuum .vacuum-story{padding:10px 15px 10px 5px}
+.project-vacuum .vacuum-story h3{font-size:28px;line-height:1.2;margin:17px 0}
+.project-vacuum .vacuum-story>p+p{margin-top:12px}
+.project-vacuum .project-phase{border-top:1px solid var(--line);padding-top:14px;margin-top:20px;font-size:11px;line-height:1.7}
+@media(max-width:760px){.project-vacuum{grid-template-columns:1fr;gap:14px;padding-top:25px}.project-vacuum .p5{height:280px}.project-vacuum .vacuum-story{padding:5px 0 0}.project-vacuum .vacuum-story h3{font-size:25px}.course-product h5{font-size:16px}}
+@media print{.project-vacuum{display:block;break-inside:avoid;margin-top:10px;padding-top:15px}.project-vacuum .vacuum-story{padding:0}.project-vacuum .vacuum-story h3{font-size:16pt}.project-vacuum .project-phase{font-size:8pt}.course-product{margin-top:12px;padding-top:12px}.course-product h5{font-size:11pt}.course-card .course-product p{font-size:9pt}}
 .course-development{margin-top:55px;padding-top:45px;border-top:1px solid var(--line)}
 .course-heading{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:end;margin-bottom:28px}
 .course-heading h3{font:500 clamp(28px,3vw,39px)/1.15 'Space Grotesk',sans-serif;letter-spacing:-1.4px;margin:18px 0 0;max-width:490px}
