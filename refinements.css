@@ -1,4 +1,6 @@
 /* An editorial portfolio connecting physical products, digital work and education. */
+.system-practice p+p{margin-top:12px}
+.system-practice .training-meta{font-size:11px;font-weight:500;color:var(--ink)}
 .systems{border-top:1px solid var(--line);margin-top:80px;padding-top:65px}
 .systems-content{display:grid;grid-template-columns:.9fr 1.1fr;gap:65px;align-items:start}
 .systems-intro{padding:32px;background:#e6eadf;border:1px solid #d3dac9;border-radius:4px}
