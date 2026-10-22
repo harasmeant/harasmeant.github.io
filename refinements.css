@@ -1,4 +1,25 @@
-/* An editorial portfolio connecting physical products and digital work. */
+/* An editorial portfolio connecting physical products, digital work and education. */
+.course-development{margin-top:55px;padding-top:45px;border-top:1px solid var(--line)}
+.course-heading{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:end;margin-bottom:28px}
+.course-heading h3{font:500 clamp(28px,3vw,39px)/1.15 'Space Grotesk',sans-serif;letter-spacing:-1.4px;margin:18px 0 0;max-width:490px}
+.course-heading>p{font-size:14px;line-height:1.8;color:var(--muted);max-width:440px;margin:0}
+.course-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.course-card{position:relative;min-width:0;padding:32px;background:#e5e9dc;border:1px solid #d3dac9;border-radius:4px}
+.course-music{background:#eee7dc;border-color:#ddd4c6}
+.course-status{display:block;font-size:10px;letter-spacing:.6px;color:#526247;min-height:44px;padding-right:65px}
+.course-music .course-status{color:#775a46}
+.course-mark{position:absolute;right:30px;top:22px;font:500 33px 'Space Grotesk',sans-serif;letter-spacing:-2px;color:#657653}
+.course-music .course-mark{color:#886c52;font-size:46px;top:15px;right:35px}
+.course-card h4{font:500 25px 'Space Grotesk',sans-serif;letter-spacing:-.7px;margin:15px 0}
+.course-card p{font-size:14px;line-height:1.8;color:var(--muted);margin:0}
+.course-card .skills{margin-top:22px}.course-card .skills span{background:transparent;border-color:#b9c4ac;font-size:11px}
+.course-music .skills span{border-color:#cbbba8}
+.teaching-now{display:flex;align-items:center;gap:15px;margin-top:24px;padding:22px 0}
+.teaching-dot{width:8px;height:8px;background:#688047;border-radius:50%;flex-shrink:0}
+.teaching-now strong{font-size:13px;font-weight:500}.teaching-now p{font-size:12px;line-height:1.6;color:var(--muted);margin:6px 0 0}
+.teaching-now a{margin-left:auto;white-space:nowrap;font-size:12px;border-bottom:1px solid var(--line);padding:8px 0}
+@media(max-width:760px){.course-development{margin-top:38px;padding-top:35px}.course-heading{grid-template-columns:1fr;gap:20px}.course-heading h3{font-size:30px}.course-heading>p,.course-card p{font-size:13px}.course-grid{grid-template-columns:1fr;gap:18px}.course-card{padding:25px}.teaching-now{flex-wrap:wrap;align-items:flex-start;gap:12px}.teaching-dot{margin-top:4px}.teaching-now>div{flex:1;min-width:180px}.teaching-now a{margin-left:20px}}
+@media print{.course-development{padding-top:20px;margin-top:20px}.course-heading{grid-template-columns:1fr;gap:10px}.course-heading h3{font-size:21pt}.course-heading>p,.course-card p{font-size:9pt}.course-grid{gap:15px}.course-card{padding:16px;background:white;border-color:#ccc;break-inside:avoid}.course-card h4{font-size:16pt}.course-mark{display:none}.course-status{padding:0;min-height:0}.teaching-now{break-inside:avoid;margin-top:10px;padding:10px 0}.teaching-now a{display:none}}
 :root{--paper:#f5f4ed;--ink:#203d33;--muted:#5e6b60;--line:#d4d8cb;--acid:#dfecaa}
 ::selection{background:var(--acid);color:var(--ink)}
 .skip-link{position:fixed;top:10px;left:10px;z-index:20;padding:12px 18px;background:var(--ink);color:white;transform:translateY(-160%)}
