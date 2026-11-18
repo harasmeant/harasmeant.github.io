@@ -17,4 +17,6 @@ buttons.forEach(button => button.addEventListener('click', () => setLanguage(but
 let initial = 'es';
 try { initial = localStorage.getItem('portfolio-language') || 'es'; } catch {}
 setLanguage(initial);
+// Ctrl+P y el PDF muestran también el contenido de los desplegables.
+addEventListener('beforeprint', () => document.querySelectorAll('details').forEach(d => d.open = true));
 document.getElementById('year').textContent = new Date().getFullYear();
